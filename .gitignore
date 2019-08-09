@@ -1,0 +1,8 @@
+# 3rd party stuff
+/vendor
+/node_modules
+
+# package
+package-lock.json
+composer.lock
+

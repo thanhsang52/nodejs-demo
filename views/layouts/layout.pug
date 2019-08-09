@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    include ./elements/header
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    
+  body
+    include ./elements/navbar
+    <div id="page-wrapper">
+      block content
+    </div>
+    include ./elements/scripts
